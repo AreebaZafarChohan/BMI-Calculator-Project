@@ -1,8 +1,6 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 import { BMIAnimation } from "./animation.js";
-import { retry } from "rxjs";
-import chalkAnimation from "chalk-animation";
 
 // Define a type for the users's input data 
 interface UserData {
